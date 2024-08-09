@@ -1,0 +1,151 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.hello{
+  background: darkslateblue !important;
+  display: flex;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.header {
+  position: fixed; /* Fixes the header to the top */
+  top: 0; /* Aligns it to the top of the viewport */
+  left: 0; /* Aligns it to the left edge */
+  right: 0; /* Aligns it to the right edge */
+  padding: 1rem; /* Adds padding for better spacing */
+  background-color: var(--bs-body-tertiary); /* Use your desired background color */
+  color: #333; /* Text color */
+  text-align: left; /* Left align the header text */
+  z-index: 1000; /* Ensures it stays above other content */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-size {
+  width: 100px; 
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+
+.footer {
+  position: fixed; 
+  bottom: 0; 
+  left: 0;
+  right: 0; 
+  padding: 1rem; 
+  background-color: var(--bs-body-tertiary); 
+  text-align: center; 
+  z-index: 1000; 
+}
+
+
+/* General form styles */
+
+
+/* Row styles */
+.row {
+  margin-bottom: 15px; /* Space between rows */
+}
+
+/* Label styles */
+.form-label {
+  font-weight: bold; /* Bold labels for better visibility */
+  margin-bottom: 5px; /* Space below labels */
+}
+
+/* Input field styles */
+.form-control {
+  border: 1px solid #ced4da; /* Default border color */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 10px; /* Padding inside input fields */
+  transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+/* Input focus styles */
+.form-control:focus {
+  border-color: #80bdff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow on focus */
+}
+
+/* Invalid feedback styles */
+.invalid-feedback {
+  font-size: 0.875rem; /* Smaller font size for feedback */
+  color: #dc3545; /* Red color for error messages */
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px; /* Padding for buttons */
+  font-size: 1rem; /* Font size for buttons */
+  border-radius: 5px; /* Rounded corners for buttons */
+}
+
+/* Success button styles */
+.btn-success {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+}
+
+/* Button hover effect */
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.address{
+  /* display: flex; */
+  justify-content: space-between;
+}
+.one-row, .two-row, .three-row {
+  /* width: 32%; */
+  margin-bottom: 10px;
+}
+
+
